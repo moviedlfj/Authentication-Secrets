@@ -130,10 +130,7 @@ app.post('/login', async function(req, res) {
 app.post('/submit', function(req, res) {   
     //console.log(req.body); 
     //const secrets = req.body.secret;
-    // const newSecret = new Secret({
-    //     email: req.body.username,
-    //     secret: req.body.secret
-    // });
+    
     res.render("home");
     
 });
